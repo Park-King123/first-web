@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paraphraser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Paraphrase Tool</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="summarize.html">Summarize</a>
+    <a href="quiz.html">Quiz Generator</a>
+  </nav>
+  <div class="container">
+    <h2>Enter difficult content:</h2>
+    <textarea id="paraInput" rows="8" placeholder="Paste complex content here..."></textarea>
+    <button onclick="paraphraseText()">Paraphrase</button>
+    <h3>Paraphrased Text:</h3>
+    <p id="paraOutput"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

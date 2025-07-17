@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Summarize Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Summarizer</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="quiz.html">Quiz Generator</a>
+    <a href="paraphrase.html">Paraphraser</a>
+  </nav>
+  <div class="container">
+    <h2>Enter your notes:</h2>
+    <textarea id="noteInput" rows="8" placeholder="Paste your notes here..."></textarea>
+    <button onclick="summarizeNotes()">Summarize</button>
+    <h3>Summary:</h3>
+    <p id="summaryOutput"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
